@@ -23,7 +23,7 @@
 						
 						<form:label path="hobby">What's your preferred hobby ?</form:label>
 						<form:select path="hobby">
-							<form:options items="${hobbies}" itemValue="id" itemLabel="name"/>
+							<form:options items="${hobbies}" itemValue="name" itemLabel="name"/>
 						</form:select>
 						
 						<form:button>Send</form:button>

@@ -23,7 +23,7 @@ public class GiftController {
 	public String home(Model model,
 						@ModelAttribute (value="currentUser") User currentUser){			
 		model.addAttribute("gift",giftService.chooseGift(currentUser.getHobby(), currentUser.getAge()));
-		return "integrated:gift";
+		return "integrated:/gift";
 	}
 
 }

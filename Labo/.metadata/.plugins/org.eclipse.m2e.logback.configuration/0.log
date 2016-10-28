@@ -3268,3 +3268,38 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2016-10-28 12:05:16,287 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2016-10-28 12:05:16,289 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-10-28 12:05:16,290 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1\src\test\resources
+2016-10-28 12:16:06,440 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:16:06,443 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-28 12:16:06,449 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-28 12:16:06,454 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:16:06,455 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1\src\test\resources
+2016-10-28 12:19:37,183 [Worker-89] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1
+2016-10-28 12:19:37,185 [Worker-89] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2016-10-28 12:21:08,310 [Worker-87] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1
+2016-10-28 12:21:08,311 [Worker-87] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2016-10-28 12:21:38,079 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:21:38,080 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-28 12:21:38,086 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-28 12:21:38,089 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:21:38,089 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1\src\test\resources
+2016-10-28 12:21:58,836 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1
+2016-10-28 12:21:58,837 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2016-10-28 12:22:08,715 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:22:08,716 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-28 12:22:08,719 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-28 12:22:08,721 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:22:08,722 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1\src\test\resources
+2016-10-28 12:26:17,806 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1
+2016-10-28 12:26:17,808 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2016-10-28 12:26:30,018 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:26:30,019 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-28 12:26:30,022 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-28 12:26:30,032 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:26:30,033 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1\src\test\resources
+2016-10-28 12:33:22,453 [Worker-95] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1
+2016-10-28 12:33:22,453 [Worker-95] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2016-10-28 12:33:35,736 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:33:35,737 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-28 12:33:35,739 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-28 12:33:35,745 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-28 12:33:35,746 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Christophe\Desktop\Documents\Cours_2016-2017\Java_Web\Labo\childgift1\src\test\resources
