@@ -1,0 +1,21 @@
+package com.spring.henallux.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class GiftService {
+	
+	public String chooseGift(String hobby, int age){
+		if(age<5){
+			return "un puzzle de "+ hobby;
+		}
+		else{
+			if(age<10){
+				return "un DVD de "+ hobby;
+			}
+			else{
+				return "un livre de "+ hobby;
+			}
+		}
+	}
+}

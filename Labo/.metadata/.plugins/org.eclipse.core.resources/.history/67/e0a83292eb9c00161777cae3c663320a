@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" 
+	pageEncoding="UTF-8"%>
+<%@ include file="include/importTags.jsp" %>	
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+	</head>
+	<body>
+		Welcome on inscription page
+		<form:form 	id="form"
+					method="POST"
+					action = "/childgift1/inscription/send"
+					modelAttribute="user">
+						<form:label path="name">Name :</form:label>
+						<form:input path="name"/>
+						
+						<form:label path="age">Age</form:label>
+						<form:input path="age"/>
+						
+						<form:radiobutton path="male" value="true"/>Boy
+						<form:radiobutton path="male" value="false"/>Girl
+						
+						<form:label path="hobby">What's your preferred hobby ?</form:label>
+						<form:select path="hobby">
+							<form:options items="${hobbies}" itemValue="id" itemLabel="name"/>
+						</form:select>
+						
+						<form:button>Send</form:button>
+		</form:form>			
+	</body>
+</html>	

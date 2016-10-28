@@ -1,0 +1,53 @@
+package com.spring.henallux.controller;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.spring.henallux.model.User;
+import com.spring.henallux.service.HobbiesService;
+
+	@Controller
+	@RequestMapping(value="/userInscription")
+	public class InscriptionController {
+		
+		@Autowired
+		private HobbiesService hobbiesService;
+
+		@RequestMapping(method=RequestMethod.GET)
+		public String home(Model model){			
+			model.addAttribute("hobbies",hobbiesService.getListHobbies());
+			model.addAttribute("userInscription", new User());
+			return "integrated:userInscription";
+		}
+		
+		@RequestMapping(value="/send", method=RequestMethod.POST)
+		public String getFormData(Model model,
+									@Valid @ModelAttribute(value="userInscription") User inscriptionForm,
+									final BindingResult errors){
+			if(!errors.hasErrors()){
+				
+				model.addAttribute("name", inscriptionForm);
+				model.addAttribute("age",inscriptionForm);
+				model.addAttribute("male", inscriptionForm);
+				model.addAttribute("hobby",inscriptionForm);
+				
+				System.out.println(inscriptionForm.getName().toString());
+				/*System.out.println(inscriptionForm.getAge().toString());
+				System.out.println(inscriptionForm.getMale().toString());
+				System.out.println(inscriptionForm.getHobby().toString());*/
+				return "integrated:/gift";
+			}
+			else{
+				return "integrated:userInscription";
+			}
+			
+		}
+	}
+

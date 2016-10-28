@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" 
+	pageEncoding="UTF-8"%>
+<%@ include file="include/importTags.jsp" %>	
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+	</head>
+	<body>
+		<form:form 	id="chooseGift"
+					method="POST"
+					modelAttribut="user">
+					<form:label path="hobby">${user.hobby}</form:label>
+		</form:form>			
+						
+	</body>
+</html>	

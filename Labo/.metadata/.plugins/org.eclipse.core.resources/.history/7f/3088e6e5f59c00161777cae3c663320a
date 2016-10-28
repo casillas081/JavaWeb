@@ -1,0 +1,58 @@
+package com.spring.henallux.model;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import com.spring.henallux.service.GiftService;
+
+public class User {
+	
+	@NotNull
+	@Size(min=4, max=15)
+	private String name;
+	
+	@NotNull
+	@Min(value=1)
+	@Max(value=12)
+	private Integer age;
+	
+	private Boolean male;
+	private String hobby;
+	
+	public User(){
+		
+	}
+	
+	// Getter
+	public String getName(){
+		return name;
+	}
+	public Integer getAge(){
+		return age;
+	}
+	public Boolean getMale(){
+		return male;
+	}
+	public String getHobby(){
+		return hobby;
+	}
+	
+	
+	//Setter	
+	public void setName(String n){
+		name = n;
+	}
+	public void setAge(Integer a){
+		age = a;
+	}
+	public void setMale(Boolean m){
+		male = m;
+	}
+	public void setHobby(String h){
+		hobby = h;
+	}
+	
+
+}
